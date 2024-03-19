@@ -14,14 +14,13 @@
 }
 
 .header {
-    background-image: url(img/b2.jpeg);
+    background-image: url(img/b1.jpeg);
     background-position: center top -400px;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 70vh;
     display: flex;
     align-items: center;
-    pri
 }
 
 .opacidad {
@@ -96,7 +95,42 @@
 }
 
 .header-txt p {
-    color: #AFAFAF;
+    color: whitesmoke;
     margin: 0 250px;
     padding: 25PX 0;
+    position: relative;
+}
+
+section {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #191919;
+    color: whitesmoke;
+}
+
+
+.section-txt {
+    padding: 40px ;
+}
+.section-txt h2{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.section-txt P {
+    margin: 0 250px;
+    padding: 25PX 0;
+}
+
+.container-img   {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 26px;
+    row-gap: 26px;
+}
+
+.container-img img  {
+    height: 300px;
+    width: 220px;
+    background-color: #fff;
 }
