@@ -94,12 +94,58 @@
     position: relative;
 }
 
-.header-txt p {
+.header-txt h3 {
+    position: relative;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.header-txt p  {
     color: whitesmoke;
     margin: 0 250px;
     padding: 25PX 0;
     position: relative;
 }
+
+.sobre-nosotros-txt{
+    display: flex;
+}
+
+.sobre-nosotros-1 {
+    background-image: url(img/s1.jpeg);
+    background-position: right -10px bottom  -20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 700px;
+}
+
+.sobre-nosotros-2 {
+    width: 50%;
+    margin: 150px 150px 150px 100px;
+    background-color: #191919;
+    height: 500px;
+}
+
+h2 {
+    font-size: 90px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+p {
+    font-size: 16px;
+    color: #AFAFAF;
+    margin: 15px 0;
+}
+
+.b1 {
+    color: #cf2d3a;
+}
+
 
 section {
     text-align: center;
@@ -134,3 +180,4 @@ section {
     width: 220px;
     background-color: #fff;
 }
+
