@@ -298,7 +298,7 @@ p {
 }
 
 
-@media(max-width:991px) {
+@media(max-width:545px) {
     .menu {
         padding: 20px;
     }
@@ -332,7 +332,11 @@ p {
         padding: 100px 30px;
     }
 
-    .header-content p {
+    .header-content h1 {
+        font-size: 50px;
+    }
+
+    .header-content  p {
         padding: 0;
     }
 
